@@ -1,8 +1,12 @@
 import React from 'react'
+import Navigation from './Navigation'
 
 function HomePage() {
   return (
-    <div>HomePage</div>
+    <div>
+        <Navigation />
+        <h1>HomePage</h1>
+    </div>
   )
 }
 
