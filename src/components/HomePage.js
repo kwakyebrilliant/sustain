@@ -70,11 +70,11 @@ function HomePage() {
 
     {/* categories */}
         <div className="flex flex-col bg-white m-auto pt-10">
-        <h1 className="flex py-5 lg:px-20 md:px-10 px-5 lg:mx-20 md:mx-10 mx-5 font-bold text-4xl text-gray-800">
+        <h1 className="flex py-5 lg:mx-20 md:mx-10 mx-5 font-bold text-3xl text-gray-800">
                 Categories
         </h1>
         <div className="flex overflow-x-scroll pb-10 hide-scroll-bar">
-            <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
+            <div className="flex flex-nowrap lg:ml-200 md:ml-20 ml-10 ">
             <div className="inline-block px-3">
                 <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"></div>
             </div>
@@ -112,7 +112,138 @@ function HomePage() {
     </div>
 
 
-        
+    {/* Pinned Actions */}
+    <div className='w-full'>
+
+    <h1 className="flex py-5 lg:mx-20 md:mx-10 mx-5 font-bold text-3xl text-gray-800">
+                Pinned Actions
+    </h1>
+
+    
+    <div className='relative px-20 grid grid-cols-1 lg:grid-cols-4 gap-x-8 gap-y-16'>
+
+    <a href="#" className="group relative block bg-black">
+  <img
+    alt="Developer"
+    src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+    className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+  />
+
+  <div className="relative p-4 sm:p-6 lg:p-8">
+    <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
+      Developer
+    </p>
+
+    <p className="text-xl font-bold text-white sm:text-2xl">Tony Wayne</p>
+
+    <div className="mt-32 sm:mt-48 lg:mt-64">
+      <div
+        className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+      >
+        <p className="text-sm text-white">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+          perferendis hic asperiores quibusdam quidem voluptates doloremque
+          reiciendis nostrum harum. Repudiandae?
+        </p>
+      </div>
+    </div>
+  </div>
+</a>
+
+
+<a href="#" className="group relative block bg-black">
+  <img
+    alt="Developer"
+    src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+    className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+  />
+
+  <div className="relative p-4 sm:p-6 lg:p-8">
+    <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
+      Developer
+    </p>
+
+    <p className="text-xl font-bold text-white sm:text-2xl">Tony Wayne</p>
+
+    <div className="mt-32 sm:mt-48 lg:mt-64">
+      <div
+        className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+      >
+        <p className="text-sm text-white">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+          perferendis hic asperiores quibusdam quidem voluptates doloremque
+          reiciendis nostrum harum. Repudiandae?
+        </p>
+      </div>
+    </div>
+  </div>
+</a>
+
+
+<a href="#" className="group relative block bg-black">
+  <img
+    alt="Developer"
+    src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+    className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+  />
+
+  <div className="relative p-4 sm:p-6 lg:p-8">
+    <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
+      Developer
+    </p>
+
+    <p className="text-xl font-bold text-white sm:text-2xl">Tony Wayne</p>
+
+    <div className="mt-32 sm:mt-48 lg:mt-64">
+      <div
+        className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+      >
+        <p className="text-sm text-white">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+          perferendis hic asperiores quibusdam quidem voluptates doloremque
+          reiciendis nostrum harum. Repudiandae?
+        </p>
+      </div>
+    </div>
+  </div>
+</a>
+
+
+<a href="#" className="group relative block bg-black">
+  <img
+    alt="Developer"
+    src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
+    className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+  />
+
+  <div className="relative p-4 sm:p-6 lg:p-8">
+    <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
+      Developer
+    </p>
+
+    <p className="text-xl font-bold text-white sm:text-2xl">Tony Wayne</p>
+
+    <div className="mt-32 sm:mt-48 lg:mt-64">
+      <div
+        className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+      >
+        <p className="text-sm text-white">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+          perferendis hic asperiores quibusdam quidem voluptates doloremque
+          reiciendis nostrum harum. Repudiandae?
+        </p>
+      </div>
+    </div>
+  </div>
+</a>
+
+</div>
+
+    </div>
+
+
+
+        {/* Footer */}
         <Footer />
   
 
