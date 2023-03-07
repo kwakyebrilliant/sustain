@@ -1,20 +1,20 @@
 import React from 'react'
 import Navigation from './Navigation'
 
-import bg from '../assets/bg.jpg'
+import cover from '../assets/cover.jpg';
 
 function HomePage() {
   return (
     <div>
         <Navigation />
         
-
-        <div className='w-full h-screen px-20 bg-white flex flex-col justify-between'>
+        {/* first section */}
+        <div className='w-full h-screen pt-20 px-20 bg-white flex flex-col justify-between'>
         <div className='grid md:grid-cols-2 max-w-[1240px] m-auto'>
             <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
-                <h1 className='py-3 text-4xl md:text-6xl font-bold'>Protect <strong className="font-extrabold text-green-600 sm:block">The Earth</strong></h1>
-                <p className='max-w-lg sm:leading-relaxed sm:text-xl'>Store, share, and collaborate on files </p>
-                <p className='max-w-lg sm:leading-relaxed sm:text-xl'>with everything running on the blockchain.</p>
+                <h1 className='py-3 text-4xl md:text-6xl font-bold'>Climate <strong className="font-extrabold text-green-600 sm:block">Actions</strong></h1>
+                <p className='max-w-lg sm:leading-relaxed sm:text-xl'>Champion, solicit, and undertake projects </p>
+                <p className='max-w-lg sm:leading-relaxed sm:text-xl'>that will help save and safegaurd our planet.</p>
                 <div className="flex flex-wrap gap-4 mt-8 text-center">
                 <a className="group relative inline-flex items-center overflow-hidden rounded bg-green-600 px-8 py-3 text-white focus:outline-none focus:ring active:bg-green-600" href="/">
                 <span className="absolute left-0 -translate-x-full transition-transform group-hover:translate-x-4">
@@ -51,7 +51,7 @@ function HomePage() {
             </div>
             
             <div className='mx-auto max-w-lg text-center lg:mx-0 lg:text-left'>
-                <img className='w-full justify-center' src={bg} alt="/" />
+                <img className='w-full justify-center' src={cover} alt="/" />
             </div>
            
 
@@ -64,6 +64,50 @@ function HomePage() {
         </div>
         </div>
 
+    </div>
+
+
+    {/* categories */}
+        <div className="flex flex-col bg-white m-auto pt-10">
+        <h1 className="flex py-5 lg:px-20 md:px-10 px-5 lg:mx-20 md:mx-10 mx-5 font-bold text-4xl text-gray-800">
+                Categories
+        </h1>
+        <div className="flex overflow-x-scroll pb-10 hide-scroll-bar">
+            <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
+            <div className="inline-block px-3">
+                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"></div>
+            </div>
+            <div className="inline-block px-3">
+                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"></div>
+            </div>
+            <div className="inline-block px-3">
+                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"></div>
+            </div>
+            <div className="inline-block px-3">
+                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"></div>
+            </div>
+            <div className="inline-block px-3">
+                <div
+                className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+                ></div>
+            </div>
+            <div className="inline-block px-3">
+                <div
+                className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+                ></div>
+            </div>
+            <div className="inline-block px-3">
+                <div
+                className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+                ></div>
+            </div>
+            <div className="inline-block px-3">
+                <div
+                className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+                ></div>
+            </div>
+            </div>
+        </div>
     </div>
 
     </div>
