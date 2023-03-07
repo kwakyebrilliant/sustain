@@ -2,13 +2,13 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>
+    <div className='w-full'>
         
         <footer aria-label="Site Footer" className="bg-white">
             <div className="max-w-screen-xl px-4 pt-16 pb-8 mx-auto sm:px-6 lg:px-8 lg:pt-24">
                 <div className="text-center">
                 <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl">
-                    Every Other Contents
+                    Save The Planet
                 </h2>
 
                 <p className="max-w-sm mx-auto mt-4 text-gray-500">
@@ -16,7 +16,7 @@ function Footer() {
                     ipsum eos temporibus ea nihil.
                 </p>
 
-                <a href="#" className="inline-block px-12 py-3 mt-8 text-sm font-medium text-blue-700 border border-blue-700 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring active:bg-blue-700">
+                <a href="#" className="inline-block px-12 py-3 mt-8 text-sm font-medium text-green-600 border border-green-600 hover:bg-green-600 hover:text-white focus:outline-none focus:ring active:bg-green-600">
                     Get Started
                 </a>
                 </div>
