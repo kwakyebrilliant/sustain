@@ -2,6 +2,7 @@ import React from 'react'
 import Navigation from './Navigation'
 
 import cover from '../assets/cover.jpg';
+import Footer from './Footer';
 
 function HomePage() {
   return (
@@ -109,6 +110,10 @@ function HomePage() {
             </div>
         </div>
     </div>
+
+
+    <Footer />
+
 
     </div>
   )
