@@ -226,7 +226,7 @@ function HomePage() {
     
     <div className='relative px-20 grid grid-cols-1 lg:grid-cols-4 gap-x-8 gap-y-16'>
 
-    <a href="#singlepage" className="group relative block bg-black">
+    <a href="/singlepage" className="group relative block bg-black">
         <img
             alt="Developer"
             src={forest}
