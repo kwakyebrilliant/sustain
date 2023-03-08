@@ -19,7 +19,7 @@ export default function Navigation() {
           <h1 className='text-3xl font-bold text-white mr-4 sm:text-4xl'>SUSTAIN.</h1>
           <ul className='hidden text-white md:flex'>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="#Actions">Actions</Link></li>
+          <li><Link to="/action">Actions</Link></li>
           <li><Link to="#About">About</Link></li>
           </ul>
         </div>
@@ -45,7 +45,7 @@ export default function Navigation() {
 
       <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
         <li className='border-b-2 border-zinc-300 w-full'><Link to="/" onClick={handleClose}>Home</Link></li>
-        <li className='border-b-2 border-zinc-300 w-full'><Link to="#Actions" onClick={handleClose}>Actions</Link></li>
+        <li className='border-b-2 border-zinc-300 w-full'><Link to="/action" onClick={handleClose}>Actions</Link></li>
         <li className='border-b-2 border-zinc-300 w-full'><Link to="#About" onClick={handleClose}>About</Link></li>
 
         <div className='my-4'>
