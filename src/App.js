@@ -5,6 +5,7 @@ import AboutPage from "./components/AboutPage";
 import SinglePage from "./components/SinglePage";
 import TermsPage from "./components/TermsPage";
 import PrivacyPage from "./components/PrivacyPage";
+import FaqPage from "./components/Faq";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Route path="/singlepage" exact element={<SinglePage />} />
       <Route path="/termspage" exact element={<TermsPage />} />
       <Route path="/privacypage" exact element={<PrivacyPage />} />
+      <Route path="/faqpage" exact element={<FaqPage />} />
       </Routes>
     </Router>
   );
