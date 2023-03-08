@@ -13,7 +13,7 @@ function TermsPage() {
           <div className='w-full text-center pt-20'>
 
             <h2 className="text-3xl pt-20 font-extrabold text-gray-900 sm:text-5xl">
-                About Sustain
+                Terms And Conditions
             </h2>
 
             <p className="mx-auto mt-4 text-gray-500 max-w-5xl">
