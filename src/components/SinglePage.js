@@ -4,6 +4,8 @@ import Footer from './Footer';
 
 import forest from '../assets/forest.jpeg';
 
+import { FaCashRegister, FaMoneyBill } from 'react-icons/fa'
+
 
 function SinglePage() {
     return (
@@ -32,9 +34,15 @@ function SinglePage() {
 
                     <div className="p-8 sm:p-16 lg:p-24">
                     <h2 className="text-2xl font-bold sm:text-3xl">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore,
-                        debitis.
+                        Save Achimota Forest
                     </h2>
+
+                    <div className='flex flex-row'>
+                        <FaMoneyBill className='lg:w-[24px] lg:h-[25px] my-1' /> 
+                        <h2 className="text-xl px-2 font-bold sm:text-2xl">
+                            0/15563.00
+                        </h2>
+                    </div>
 
                     <p className="mt-4 text-gray-600">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
