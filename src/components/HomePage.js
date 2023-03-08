@@ -17,7 +17,7 @@ function HomePage() {
             <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
                 <h1 className='py-3 text-4xl md:text-6xl font-bold'>Climate <strong className="font-extrabold text-green-600 sm:block">Actions</strong></h1>
                 <p className='max-w-lg sm:leading-relaxed sm:text-xl'>Champion, solicit, and undertake projects </p>
-                <p className='max-w-lg sm:leading-relaxed sm:text-xl'>that will help save and safegaurd our planet.</p>
+                <p className='max-w-lg sm:leading-relaxed sm:text-xl'>that will help save and safeguard our planet.</p>
                 <div className="flex flex-wrap gap-4 mt-8 text-center">
                 <a className="group relative inline-flex items-center overflow-hidden rounded bg-green-600 px-8 py-3 text-white focus:outline-none focus:ring active:bg-green-600" href="/">
                 <span className="absolute left-0 -translate-x-full transition-transform group-hover:translate-x-4">
@@ -84,7 +84,7 @@ function HomePage() {
                     <div className="relative p-4 sm:p-6 lg:p-8">
 
                         <p className="text-sm font-medium capitalize tracking-widest text-white">
-                            Climate Action Targetting Forest
+                            Climate Action Targeting Forest
                         </p>
 
                         <p className="text-xl font-bold text-white sm:text-2xl">
@@ -178,7 +178,7 @@ function HomePage() {
                     <div className="relative p-4 sm:p-6 lg:p-8">
 
                         <p className="text-sm font-medium capitalize tracking-widest text-white">
-                            Climate Action Targetting Renewables
+                            Climate Action Targeting Renewables
                         </p>
 
                         <p className="text-xl font-bold text-white sm:text-2xl">
