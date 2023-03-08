@@ -27,7 +27,7 @@ function Footer() {
                 <nav aria-label="Footer Navigation - Support">
                     <ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
                     <li>
-                        <a href="#" className="text-gray-500 transition hover:opacity-75">
+                        <a href="/termspage" className="text-gray-500 transition hover:opacity-75">
                         Terms & Conditions
                         </a>
                     </li>
