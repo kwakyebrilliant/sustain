@@ -77,38 +77,140 @@ function HomePage() {
         </h1>
         <div className="flex overflow-x-scroll pb-10 hide-scroll-bar">
             <div className="flex flex-nowrap lg:ml-200 md:ml-20 ml-10 ">
+
             <div className="inline-block px-3">
-                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"></div>
+                <div className="w-64 h-max max-w-xs overflow-hidden rounded-lg shadow-md bg-green-600 hover:shadow-xl transition-shadow duration-300 ease-in-out">
+
+                    <div className="relative p-4 sm:p-6 lg:p-8">
+
+                        <p className="text-sm font-medium capitalize tracking-widest text-white">
+                            Climate Action Targetting Forest
+                        </p>
+
+                        <p className="text-xl font-bold text-white sm:text-2xl">
+                            Forest
+                        </p>
+
+                    </div>
+
+                </div>
             </div>
+
             <div className="inline-block px-3">
-                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"></div>
+                <div className="w-64 h-max max-w-xs overflow-hidden rounded-lg shadow-md bg-blue-600 hover:shadow-xl transition-shadow duration-300 ease-in-out">
+
+                    <div className="relative p-4 sm:p-6 lg:p-8">
+
+                        <p className="text-sm font-medium capitalize tracking-widest text-white">
+                            Climate Action Targeting Waters
+                        </p>
+
+                        <p className="text-xl font-bold text-white sm:text-2xl">
+                            Maritime
+                        </p>
+
+                    </div>
+
+                </div>
             </div>
+
+           
             <div className="inline-block px-3">
-                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"></div>
+                <div className="w-64 h-max max-w-xs overflow-hidden rounded-lg shadow-md bg-orange-400 hover:shadow-xl transition-shadow duration-300 ease-in-out">
+
+                    <div className="relative p-4 sm:p-6 lg:p-8">
+
+                        <p className="text-sm font-medium capitalize tracking-widest text-white">
+                            Climate Action Educating People
+                        </p>
+
+                        <p className="text-xl font-bold text-white sm:text-2xl">
+                            Education
+                        </p>
+
+                    </div>
+
+                </div>
             </div>
+
+
             <div className="inline-block px-3">
-                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"></div>
+                <div className="w-64 h-max max-w-xs overflow-hidden rounded-lg shadow-md bg-pink-600 hover:shadow-xl transition-shadow duration-300 ease-in-out">
+
+                    <div className="relative p-4 sm:p-6 lg:p-8">
+
+                        <p className="text-sm font-medium capitalize tracking-widest text-white">
+                            Climate Action Planting Trees
+                        </p>
+
+                        <p className="text-xl font-bold text-white sm:text-2xl">
+                            Afforestation
+                        </p>
+
+                    </div>
+
+                </div>
             </div>
+
+
             <div className="inline-block px-3">
-                <div
-                className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-                ></div>
+                <div className="w-64 h-max max-w-xs overflow-hidden rounded-lg shadow-md bg-yellow-400 hover:shadow-xl transition-shadow duration-300 ease-in-out">
+
+                    <div className="relative p-4 sm:p-6 lg:p-8">
+
+                        <p className="text-sm font-medium capitalize tracking-widest text-white">
+                            Climate Action Targetting Air
+                        </p>
+
+                        <p className="text-xl font-bold text-white sm:text-2xl">
+                            Air
+                        </p>
+
+                    </div>
+
+                </div>
             </div>
+
+
             <div className="inline-block px-3">
-                <div
-                className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-                ></div>
+                <div className="w-64 h-max max-w-xs overflow-hidden rounded-lg shadow-md bg-red-700 hover:shadow-xl transition-shadow duration-300 ease-in-out">
+
+                    <div className="relative p-4 sm:p-6 lg:p-8">
+
+                        <p className="text-sm font-medium capitalize tracking-widest text-white">
+                            Climate Action Targetting Renewables
+                        </p>
+
+                        <p className="text-xl font-bold text-white sm:text-2xl">
+                            Renewables
+                        </p>
+
+                    </div>
+
+                </div>
             </div>
+
             <div className="inline-block px-3">
-                <div
-                className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-                ></div>
+                <div className="w-64 h-max max-w-xs overflow-hidden rounded-lg shadow-md bg-gray-400 hover:shadow-xl transition-shadow duration-300 ease-in-out">
+
+                    <div className="relative p-4 sm:p-6 lg:p-8">
+
+                        <p className="text-sm font-medium capitalize tracking-widest text-white">
+                            Any Category Not Mentioned
+                        </p>
+
+                        <p className="text-xl font-bold text-white sm:text-2xl">
+                            Others
+                        </p>
+
+                    </div>
+
+                </div>
             </div>
-            <div className="inline-block px-3">
-                <div
-                className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-                ></div>
-            </div>
+            
+           
+           
+            
             </div>
         </div>
     </div>
