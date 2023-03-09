@@ -51,6 +51,26 @@ function SinglePage() {
                         quibusdam fugiat dicta.
                     </p>
 
+                    <details className="relative mt-4 group">
+                              <summary className="block">
+                                  <div>
+
+                                  <span className="mt-4 text-sm font-medium underline cursor-pointer group-open:absolute group-open:bottom-0 group-open:left-0 group-open:mt-0">
+                                      Read More
+                                  </span>
+                                  </div>
+                              </summary>
+
+                              <div className="pb-6 prose max-w-none text-white">
+                                <p className="mt-4 text-gray-600">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
+                                    molestiae! Quidem est esse numquam odio deleniti, beatae, magni
+                                    dolores provident quaerat totam eos, aperiam architecto eius quis
+                                    quibusdam fugiat dicta.
+                                </p>
+                              </div>
+                              </details>
+
                     <a
                         href="#"
                         className="mt-8 inline-block rounded border border-green-600 bg-green-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-green-600 focus:outline-none focus:ring active:text-green-500"
