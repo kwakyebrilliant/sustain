@@ -220,7 +220,7 @@ function HomePage() {
         <div className='w-full pt-20'>
 
         <h1 className="flex py-5 lg:mx-20 md:mx-10 mx-5 font-bold text-3xl text-gray-800">
-            Available Data
+            Available Projects
         </h1>
 
 
