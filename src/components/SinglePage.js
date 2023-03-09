@@ -4,7 +4,7 @@ import Footer from './Footer';
 
 import forest from '../assets/forest.jpeg';
 
-import { FaCashRegister, FaMoneyBill } from 'react-icons/fa'
+import { FaMoneyBill } from 'react-icons/fa'
 
 
 function SinglePage() {
@@ -34,13 +34,15 @@ function SinglePage() {
 
                     <div className="p-8 sm:p-16 lg:p-24">
                     <h2 className="text-2xl font-bold sm:text-3xl">
-                        Save Achimota Forest
+                        Achimota Forest
                     </h2>
 
                     <div className='flex flex-row'>
-                        <FaMoneyBill className='lg:w-[24px] lg:h-[25px] my-1' /> 
                         <h2 className="text-xl px-2 font-bold sm:text-2xl">
-                            0/15563.00
+                            0/500 Tonnes
+                        </h2>
+                        <h2>
+                            CO<sub>2</sub>
                         </h2>
                     </div>
 
