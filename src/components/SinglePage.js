@@ -71,12 +71,29 @@ function SinglePage() {
                               </div>
                               </details>
 
-                    <a
-                        href="#"
-                        className="mt-8 inline-block rounded border border-green-600 bg-green-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-green-600 focus:outline-none focus:ring active:text-green-500"
-                    >
-                        Get in Touch
-                    </a>
+
+                            <div className="w-full mt-5 bg-gray-200 rounded-full dark:bg-gray-700">
+                                <div className="bg-green-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style={{width: "25%"}}> 25%</div>
+                            </div>
+
+
+                            <div className='flex mt-5 flex-row justify-between'>
+                            <h2 className="px-2 text-lg font-bold">
+                                0+ Supported
+                            </h2>
+                                <h1 className='p-2 rounded-full bg-green-500 text-white'>
+                                    12/03/2022
+                                </h1>
+                            </div>
+                            
+
+
+                            <a
+                                href="#"
+                                className="mt-8 w-full text-center inline-block rounded border border-green-600 bg-green-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-green-600 focus:outline-none focus:ring active:text-green-500"
+                            >
+                                Support
+                            </a>
                     </div>
                 </div>
                 </div>
