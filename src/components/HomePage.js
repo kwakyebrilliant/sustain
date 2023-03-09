@@ -15,9 +15,9 @@ function HomePage() {
         <div className='w-full h-screen pt-20 px-20 bg-white flex flex-col justify-between'>
         <div className='grid md:grid-cols-2 max-w-[1240px] m-auto'>
             <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
-                <h1 className='py-3 text-4xl md:text-6xl font-bold'>Climate <strong className="font-extrabold text-green-600 sm:block">Actions</strong></h1>
-                <p className='max-w-lg sm:leading-relaxed sm:text-xl'>Champion, solicit, and undertake projects </p>
-                <p className='max-w-lg sm:leading-relaxed sm:text-xl'>that will help save and safeguard our planet.</p>
+                <h1 className='py-3 text-4xl md:text-6xl font-bold'>Climate <strong className="font-extrabold text-green-600 sm:block">Information</strong></h1>
+                <p className='max-w-lg sm:leading-relaxed sm:text-xl'>Ask for climate information and be informed </p>
+                <p className='max-w-lg sm:leading-relaxed sm:text-xl'>about the environment around you.</p>
                 <div className="flex flex-wrap gap-4 mt-8 text-center">
                 <a className="group relative inline-flex items-center overflow-hidden rounded bg-green-600 px-8 py-3 text-white focus:outline-none focus:ring active:bg-green-600" href="/">
                 <span className="absolute left-0 -translate-x-full transition-transform group-hover:translate-x-4">
