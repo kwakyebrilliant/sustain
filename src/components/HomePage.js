@@ -216,149 +216,11 @@ function HomePage() {
     </div>
 
 
-    {/* Pinned Actions */}
-    <div className='w-full'>
-
-    <h1 className="flex py-5 lg:mx-20 md:mx-10 mx-5 font-bold text-3xl text-gray-800">
-                Pinned Actions
-    </h1>
-
-    
-    <div className='relative px-20 grid grid-cols-1 lg:grid-cols-4 gap-x-8 gap-y-16'>
-
-    <a href="/singlepage" className="group relative block bg-black">
-        <img
-            alt="Developer"
-            src={forest}
-            className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
-        />
-
-        <div className="relative p-4 sm:p-6 lg:p-8">
-            <p className="text-sm font-medium uppercase tracking-widest text-green-500">
-            Save Achimota Forest
-            </p>
-
-            <p className="text-xl font-bold text-white sm:text-2xl">
-                ETH 1/ $1,563.92
-            </p>
-
-            <div className="mt-32 sm:mt-48 lg:mt-64">
-            <div
-                className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-            >
-                <p className="text-sm text-white">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                perferendis hic asperiores quibusdam quidem voluptates doloremque
-                reiciendis nostrum harum. Repudiandae?
-                </p>
-            </div>
-            </div>
-        </div>
-    </a>
-
-    <a href="#singlepage" className="group relative block bg-black">
-        <img
-            alt="Developer"
-            src={forest}
-            className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
-        />
-
-        <div className="relative p-4 sm:p-6 lg:p-8">
-            <p className="text-sm font-medium uppercase tracking-widest text-green-500">
-            Save Achimota Forest
-            </p>
-
-            <p className="text-xl font-bold text-white sm:text-2xl">
-                ETH 1/ $1,563.92
-            </p>
-
-            <div className="mt-32 sm:mt-48 lg:mt-64">
-            <div
-                className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-            >
-                <p className="text-sm text-white">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                perferendis hic asperiores quibusdam quidem voluptates doloremque
-                reiciendis nostrum harum. Repudiandae?
-                </p>
-            </div>
-            </div>
-        </div>
-    </a>
-
-    <a href="#singlepage" className="group relative block bg-black">
-        <img
-            alt="Developer"
-            src={forest}
-            className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
-        />
-
-        <div className="relative p-4 sm:p-6 lg:p-8">
-            <p className="text-sm font-medium uppercase tracking-widest text-green-500">
-            Save Achimota Forest
-            </p>
-
-            <p className="text-xl font-bold text-white sm:text-2xl">
-                ETH 1/ $1,563.92
-            </p>
-
-            <div className="mt-32 sm:mt-48 lg:mt-64">
-            <div
-                className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-            >
-                <p className="text-sm text-white">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                perferendis hic asperiores quibusdam quidem voluptates doloremque
-                reiciendis nostrum harum. Repudiandae?
-                </p>
-            </div>
-            </div>
-        </div>
-    </a>
-
-    <a href="#singlepage" className="group relative block bg-black">
-        <img
-            alt="Developer"
-            src={forest}
-            className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
-        />
-
-        <div className="relative p-4 sm:p-6 lg:p-8">
-            <p className="text-sm font-medium uppercase tracking-widest text-green-500">
-            Save Achimota Forest
-            </p>
-
-            <p className="text-xl font-bold text-white sm:text-2xl">
-                ETH 1/ $1,563.92
-            </p>
-
-            <div className="mt-32 sm:mt-48 lg:mt-64">
-            <div
-                className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-            >
-                <p className="text-sm text-white">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-                perferendis hic asperiores quibusdam quidem voluptates doloremque
-                reiciendis nostrum harum. Repudiandae?
-                </p>
-            </div>
-            </div>
-        </div>
-    </a>
-
-
-
-
-    </div>
-
-    </div>
-
-
-        {/* Recent Actions */}
+        {/* Available Data */}
         <div className='w-full pt-20'>
 
         <h1 className="flex py-5 lg:mx-20 md:mx-10 mx-5 font-bold text-3xl text-gray-800">
-                    Recent Actions
+            Available Data
         </h1>
 
 
@@ -373,11 +235,11 @@ function HomePage() {
 
             <div className="relative p-4 sm:p-6 lg:p-8">
                 <p className="text-sm font-medium uppercase tracking-widest text-green-500">
-                Save Achimota Forest
+                Achimota Forest
                 </p>
 
                 <p className="text-xl font-bold text-white sm:text-2xl">
-                    ETH 1/ $1,563.92
+                    12/08/2021
                 </p>
 
                 <div className="mt-32 sm:mt-48 lg:mt-64">
@@ -403,11 +265,11 @@ function HomePage() {
 
             <div className="relative p-4 sm:p-6 lg:p-8">
                 <p className="text-sm font-medium uppercase tracking-widest text-green-500">
-                Save Achimota Forest
+                Achimota Forest
                 </p>
 
                 <p className="text-xl font-bold text-white sm:text-2xl">
-                    ETH 1/ $1,563.92
+                    12/08/2021
                 </p>
 
                 <div className="mt-32 sm:mt-48 lg:mt-64">
@@ -424,6 +286,7 @@ function HomePage() {
             </div>
         </a>
 
+
         <a href="#singlepage" className="group relative block bg-black">
             <img
                 alt="Developer"
@@ -433,11 +296,11 @@ function HomePage() {
 
             <div className="relative p-4 sm:p-6 lg:p-8">
                 <p className="text-sm font-medium uppercase tracking-widest text-green-500">
-                Save Achimota Forest
+                Achimota Forest
                 </p>
 
                 <p className="text-xl font-bold text-white sm:text-2xl">
-                    ETH 1/ $1,563.92
+                    12/08/2021
                 </p>
 
                 <div className="mt-32 sm:mt-48 lg:mt-64">
@@ -454,6 +317,7 @@ function HomePage() {
             </div>
         </a>
 
+
         <a href="#singlepage" className="group relative block bg-black">
             <img
                 alt="Developer"
@@ -463,11 +327,11 @@ function HomePage() {
 
             <div className="relative p-4 sm:p-6 lg:p-8">
                 <p className="text-sm font-medium uppercase tracking-widest text-green-500">
-                Save Achimota Forest
+                Achimota Forest
                 </p>
 
                 <p className="text-xl font-bold text-white sm:text-2xl">
-                    ETH 1/ $1,563.92
+                    12/08/2021
                 </p>
 
                 <div className="mt-32 sm:mt-48 lg:mt-64">
