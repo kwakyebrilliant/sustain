@@ -11,10 +11,10 @@ function ActionPage() {
           <Navigation />
 
 
-             {/* categories */}
-        <div className="flex flex-col bg-white m-auto pt-20">
+    {/* continents */}
+    <div className="flex flex-col bg-white m-auto pt-10">
         <h1 className="flex py-5 lg:mx-20 md:mx-10 mx-5 font-bold text-3xl text-gray-800">
-                Categories
+                Continents
         </h1>
         <div className="flex overflow-x-scroll pb-10 hide-scroll-bar">
             <div className="flex flex-nowrap lg:ml-200 md:ml-20 ml-10 ">
@@ -25,11 +25,11 @@ function ActionPage() {
                     <div className="relative p-4 sm:p-6 lg:p-8">
 
                         <p className="text-sm font-medium capitalize tracking-widest text-white">
-                            Climate Action Targeting Forest
+                            Actions in the Black Community
                         </p>
 
                         <p className="text-xl font-bold text-white sm:text-2xl">
-                            Forest
+                            Africa
                         </p>
 
                     </div>
@@ -43,11 +43,11 @@ function ActionPage() {
                     <div className="relative p-4 sm:p-6 lg:p-8">
 
                         <p className="text-sm font-medium capitalize tracking-widest text-white">
-                            Climate Action Targeting Waters
+                            Actions In The Second-Smallest Continent
                         </p>
 
                         <p className="text-xl font-bold text-white sm:text-2xl">
-                            Maritime
+                            Europe
                         </p>
 
                     </div>
@@ -62,11 +62,11 @@ function ActionPage() {
                     <div className="relative p-4 sm:p-6 lg:p-8">
 
                         <p className="text-sm font-medium capitalize tracking-widest text-white">
-                            Climate Action Educating People
+                            Actions In The Largest Continent
                         </p>
 
                         <p className="text-xl font-bold text-white sm:text-2xl">
-                            Education
+                            Asia
                         </p>
 
                     </div>
@@ -81,11 +81,11 @@ function ActionPage() {
                     <div className="relative p-4 sm:p-6 lg:p-8">
 
                         <p className="text-sm font-medium capitalize tracking-widest text-white">
-                            Climate Action Planting Trees
+                            Actions In The Fouth-Largest Continent
                         </p>
 
                         <p className="text-xl font-bold text-white sm:text-2xl">
-                            Afforestation
+                            South America
                         </p>
 
                     </div>
@@ -100,11 +100,11 @@ function ActionPage() {
                     <div className="relative p-4 sm:p-6 lg:p-8">
 
                         <p className="text-sm font-medium capitalize tracking-widest text-white">
-                            Climate Action Targeting Air
+                            Actions In The Third-Largest Continent
                         </p>
 
                         <p className="text-xl font-bold text-white sm:text-2xl">
-                            Air
+                            North America
                         </p>
 
                     </div>
@@ -113,7 +113,7 @@ function ActionPage() {
             </div>
 
 
-            <div className="inline-block px-3">
+            {/* <div className="inline-block px-3">
                 <div className="w-64 h-max max-w-xs overflow-hidden rounded-lg shadow-md bg-red-700 hover:shadow-xl transition-shadow duration-300 ease-in-out">
 
                     <div className="relative p-4 sm:p-6 lg:p-8">
@@ -129,9 +129,9 @@ function ActionPage() {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
 
-            <div className="inline-block px-3">
+            {/* <div className="inline-block px-3">
                 <div className="w-64 h-max max-w-xs overflow-hidden rounded-lg shadow-md bg-gray-400 hover:shadow-xl transition-shadow duration-300 ease-in-out">
 
                     <div className="relative p-4 sm:p-6 lg:p-8">
@@ -147,7 +147,7 @@ function ActionPage() {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
             
            
            
