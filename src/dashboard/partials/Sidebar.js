@@ -3,8 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 
 import { BsArrowLeftCircle } from 'react-icons/bs'
 import { AiFillPieChart } from 'react-icons/ai'
-// import { CgProfile } from 'react-icons/cg'
-import { FaBook, FaBuilding, FaCloudversify } from 'react-icons/fa'
+import { FaBook, FaMoneyBill, FaCloudversify } from 'react-icons/fa'
 
 const Sidebar = () => {
     const [open, setOpen] = useState(false)
@@ -12,9 +11,8 @@ const Sidebar = () => {
 
     const Menus = [
         { title: 'Summary', path: '/summary', src: <AiFillPieChart /> },
-        // { title: 'Booked', path: '/booked', src: <FaBook /> },
-        // { title: 'Properties', path: '/userproperties', src: <FaBuilding /> },
-        // { title: 'Chat', path: '/chat', src: <FaMailBulk />},
+        { title: 'Action', path: '/action', src: <FaBook /> },
+        { title: 'Support', path: '/support', src: <FaMoneyBill /> },
     ]
 
     return (

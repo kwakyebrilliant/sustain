@@ -23,7 +23,7 @@ function App() {
       <Route path="/privacypage" exact element={<PrivacyPage />} />
       <Route path="/faqpage" exact element={<FaqPage />} />
       <Route path="/summary" exact element={<Summary />} />
-      <Route path="/action" exact element={<Action />} />
+      <Route path="/useraction" exact element={<Action />} />
       <Route path="/support" exact element={<Support />} />
       </Routes>
     </Router>
