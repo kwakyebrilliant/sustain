@@ -135,9 +135,9 @@ function SinglePage() {
                                         10 ETH
                                     </a>
 
-                                    <h2 className='text-xl font-medium'>
+                                    <p className='text-md font-medium'>
                                         Input Manually
-                                    </h2>
+                                    </p>
 
                                     <div>
                                         <label className="sr-only" for="amount">Amount</label>
