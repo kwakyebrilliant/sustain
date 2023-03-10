@@ -6,6 +6,7 @@ import SinglePage from "./components/SinglePage";
 import TermsPage from "./components/TermsPage";
 import PrivacyPage from "./components/PrivacyPage";
 import FaqPage from "./components/Faq";
+import AdminMain from "./dashboard/AdminMain";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Route path="/termspage" exact element={<TermsPage />} />
       <Route path="/privacypage" exact element={<PrivacyPage />} />
       <Route path="/faqpage" exact element={<FaqPage />} />
+      <Route path="/admin" exact element={<AdminMain />} />
       </Routes>
     </Router>
   );
