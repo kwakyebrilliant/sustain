@@ -4,7 +4,7 @@ import { Link, useLocation } from 'react-router-dom'
 import { BsArrowLeftCircle } from 'react-icons/bs'
 import { AiFillPieChart } from 'react-icons/ai'
 // import { CgProfile } from 'react-icons/cg'
-import { FaHome, FaBook, FaBuilding, FaCloudversify } from 'react-icons/fa'
+import { FaBook, FaBuilding, FaCloudversify } from 'react-icons/fa'
 
 const Sidebar = () => {
     const [open, setOpen] = useState(false)
