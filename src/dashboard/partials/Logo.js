@@ -7,7 +7,7 @@ const Logo = () => {
                 <div className='flex items-center'>
                     <FaCloudversify className=' text-green-600 lg:w-[35px] lg:h-[35px]' />
                     <span className='text-xl font-medium whitespace-nowrap'>
-                        MOVERS.
+                        SUSTAIN.
                     </span>
                 </div>
 
