@@ -28,7 +28,7 @@ export default function Navigation() {
             <a
             className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-white bg-green-600 border border-green-600 rounded hover:bg-transparent hover:text-green-600 active:text-green-500 focus:outline-none focus:ring"
             type="submit"
-            href='/admin'
+            href='/summary'
             >
             <span className="text-sm font-medium">
             Get Started
@@ -53,7 +53,7 @@ export default function Navigation() {
             <a
             className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-white bg-green-600 border border-green-600 rounded hover:bg-transparent hover:text-green-600 active:text-green-500 focus:outline-none focus:ring"
             type="submit"
-            href='/admin'
+            href='/summary'
             >
             <span className="text-sm font-medium">
             Get Started
