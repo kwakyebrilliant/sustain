@@ -6,7 +6,9 @@ import SinglePage from "./components/SinglePage";
 import TermsPage from "./components/TermsPage";
 import PrivacyPage from "./components/PrivacyPage";
 import FaqPage from "./components/Faq";
-import AdminMain from "./dashboard/AdminMain";
+import Summary from "./dashboard/Pages/Summary";
+import Action from "./dashboard/Pages/Action";
+import Support from "./dashboard/Pages/Support";
 
 function App() {
 
@@ -20,7 +22,9 @@ function App() {
       <Route path="/termspage" exact element={<TermsPage />} />
       <Route path="/privacypage" exact element={<PrivacyPage />} />
       <Route path="/faqpage" exact element={<FaqPage />} />
-      <Route path="/admin" exact element={<AdminMain />} />
+      <Route path="/summary" exact element={<Summary />} />
+      <Route path="/action" exact element={<Action />} />
+      <Route path="/support" exact element={<Support />} />
       </Routes>
     </Router>
   );
