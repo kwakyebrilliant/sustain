@@ -11,9 +11,9 @@ const Sidebar = () => {
     const location = useLocation()
 
     const Menus = [
-        // { title: 'Summary', path: '/summary', src: <AiFillPieChart /> },
+        { title: 'Summary', path: '/summary', src: <AiFillPieChart /> },
         // { title: 'Booked', path: '/booked', src: <FaBook /> },
-        { title: 'Properties', path: '/userproperties', src: <FaBuilding /> },
+        // { title: 'Properties', path: '/userproperties', src: <FaBuilding /> },
         // { title: 'Chat', path: '/chat', src: <FaMailBulk />},
     ]
 
@@ -30,7 +30,7 @@ const Sidebar = () => {
                     } absolute text-3xl bg-white fill-slate-800  rounded-full cursor-pointer top-9 -right-4 dark:fill-gray-400 dark:bg-gray-800`}
                     onClick={() => setOpen(!open)}
                 />
-                <Link to='/adminsummary'>
+                <Link to='/summary'>
                     <div className={`flex ${open && 'gap-x-4'} items-center`}>
                     <FaCloudversify className=' text-green-600 lg:w-[35px] lg:h-[35px]' />
                         {open && (
