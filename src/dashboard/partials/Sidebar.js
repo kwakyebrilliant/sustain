@@ -11,7 +11,7 @@ const Sidebar = () => {
 
     const Menus = [
         { title: 'Summary', path: '/summary', src: <AiFillPieChart /> },
-        { title: 'Action', path: '/action', src: <FaBook /> },
+        { title: 'Action', path: '/useraction', src: <FaBook /> },
         { title: 'Support', path: '/support', src: <FaMoneyBill /> },
     ]
 
@@ -20,7 +20,7 @@ const Sidebar = () => {
             <div
                 className={`${
                     open ? 'w-60' : 'w-fit'
-                } hidden sm:block relative duration-300 bg-black border-r border-gray-200 p-5`}
+                } hidden h-screen sm:block relative duration-300 bg-black border-r border-gray-200 p-5`}
             >
                 <BsArrowLeftCircle
                     className={`${
