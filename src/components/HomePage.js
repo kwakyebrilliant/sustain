@@ -19,7 +19,7 @@ function HomePage() {
                 <p className='max-w-lg sm:leading-relaxed sm:text-xl'>Champion, solicit and undertake </p>
                 <p className='max-w-lg sm:leading-relaxed sm:text-xl'>actions to help safeguard our planet.</p>
                 <div className="flex flex-wrap gap-4 mt-8 text-center">
-                <a className="group relative inline-flex items-center overflow-hidden rounded bg-green-600 px-8 py-3 text-white focus:outline-none focus:ring active:bg-green-600" href="/">
+                <a className="group relative inline-flex items-center overflow-hidden rounded bg-green-600 px-8 py-3 text-white focus:outline-none focus:ring active:bg-green-600" href="/summary">
                 <span className="absolute left-0 -translate-x-full transition-transform group-hover:translate-x-4">
                     <svg
                     className="h-5 w-5"
