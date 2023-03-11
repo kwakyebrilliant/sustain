@@ -16,7 +16,7 @@ function Footer() {
                     ipsum eos temporibus ea nihil.
                 </p>
 
-                <a href="#" className="inline-block px-12 py-3 mt-8 text-sm font-medium text-green-600 border border-green-600 hover:bg-green-600 hover:text-white focus:outline-none focus:ring active:bg-green-600">
+                <a href="/summary" className="inline-block px-12 py-3 mt-8 text-sm font-medium text-green-600 border border-green-600 hover:bg-green-600 hover:text-white focus:outline-none focus:ring active:bg-green-600">
                     Get Started
                 </a>
                 </div>
